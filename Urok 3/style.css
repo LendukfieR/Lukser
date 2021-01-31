@@ -1,0 +1,138 @@
+    section{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: radial-gradient(yellow,#b53d09);
+}
+    body {
+    	margin: 0;
+    	padding: 0;
+    	overflow: hidden;
+    }
+ .mass{
+ 	position: absolute;
+ 	width: 100%;
+ 	height: 100%;
+ 	top:0;  
+ 	left:0;   
+ }
+ .mass div
+ {
+ 	position: absolute;
+ 	display: block;
+ }
+ .mass div:nth-child(1)
+ {
+ 	left: 50%;
+ 	animation-name: Lukser;
+ 	animation-duration: 3s;
+ 	animation-timing-function: linear;
+ 	animation-iteration-count: infinite;
+ }
+.mass div:nth-child(2)
+ {
+ 	left: 61%;
+ 	animation-name: Lukser;
+ 	animation-duration: 4s;
+ 	animation-timing-function: linear;
+ 	animation-iteration-count: infinite;
+ 	
+ }
+ .mass div:nth-child(3)
+ {
+ 	left: 75%;
+ 	animation-name: Lukser;
+ 	animation-duration: 3s;
+ 	animation-timing-function: linear;
+ 	animation-iteration-count: infinite;
+ 	
+ }
+ .mass div:nth-child(4)
+ {
+ 	left: 18%;
+ 	animation-name: Lukser;
+ 	animation-duration: 4s;
+ 	animation-timing-function: linear;
+ 	animation-iteration-count: infinite;
+ 	
+ }
+.mass div:nth-child(5)
+{
+    left: 35%;
+    animation-name: Lukser;
+ 	animation-duration: 3s;
+ 	animation-timing-function: linear;
+ 	animation-iteration-count: infinite;
+    
+ }
+ .mass div:nth-child(6)
+ {   
+   left: 89%;
+   	animation-name: Lukser;
+ 	animation-duration: 4s;
+ 	animation-timing-function: linear;
+ 	animation-iteration-count: infinite;
+ }
+ .mass div:nth-child(7)
+ {   
+   left: 1%;
+	animation-name: Lukser;
+ 	animation-duration: 3s;
+ 	animation-timing-function: linear;
+ 	animation-iteration-count: infinite;
+ }
+  .mass div:nth-child(8)
+ {   
+   left: 11%;
+	animation-name: Lukser;
+ 	animation-duration: 3s;
+ 	animation-timing-function: linear;
+ 	animation-iteration-count: infinite;
+ }
+@keyframes Lukser
+{
+	0%{
+		opacity: 0;
+		top:-10%; 
+		transform:translate(20px) rotate(0deg);
+	}
+	10%{
+		opacity: 1;
+	}
+	20%{
+		transform: translate(-25px) rotate(45deg);
+	}
+	40%
+	{
+		transform: translate(-25px) rotate(90deg);
+	}
+	60%
+	{
+		transform: translate(20px) rotate(140deg);
+	}
+	100% {
+		top:120%;
+	}
+}
+.mass2
+{
+	transform: scale(2);
+	filter: blur(1px);
+}
+.mass3{
+	transform: scale(0.8) rotatey(180deg);
+	filter: blur(2.5px);
+}
+h2
+{
+position: absolute;
+top:40%;
+width: 100%;
+text-align: center;
+margin:0;
+font-size: 12em;
+font-family: Calibri;
+font-style: italic;
+color:#DA7F62;
+padding:0;
+}
