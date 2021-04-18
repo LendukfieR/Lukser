@@ -1,0 +1,44 @@
+.body{
+margin:0;
+padding: 0;
+}
+
+.table{
+position: absolute;
+top: 50%;
+height: 50%;
+width:100%;
+background-color:#D6B99F;
+}
+.screen{
+position: relative;
+height: 280px;
+width:360px;
+background-color:#6B6B6B;
+left:650px;
+top: 280px;
+}
+.keyboard{
+position: absolute;
+height: 280px;
+width:360px;
+background-color:#cccccc;
+left:0px;
+top: 280px;
+}
+.screen{
+position: relative;
+height: 280px;
+width:360px;
+background-color:#6B6B6B;
+left:650px;
+top: 280px;
+}
+.screenwhite{
+position: absolute;
+width:320px;
+height: 240px;
+top:20px;
+left:20px;
+background-color:white;
+}
